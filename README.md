@@ -15,5 +15,5 @@ TODO
 
 
 ## Author
-John Lin - Georgia Tech Computer Science Class 2019
-Kimberly Yip 
+John Lin - Georgia Tech Computer Science <br />
+Kimberly Yip - 
