@@ -16,4 +16,4 @@ TODO
 
 ## Author
 John Lin - Georgia Tech Computer Science <br />
-Kimberly Yip - 
+Kimberly Yip - Computer Science
