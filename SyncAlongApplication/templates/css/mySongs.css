@@ -1,6 +1,6 @@
 #title {
-  font-size: 35px;
-  margin-left: 5%;
+  font-size: 40px;
+  margin-left: 2%;
 }
 
 /* Navigation Bar */
@@ -8,6 +8,8 @@
   padding:10px;
   display:flex;
   justify-content: space-between;
+  width: 50%;
+  margin-left: 3%;
 }
 .navButton {
   border-radius: 4px;
@@ -20,8 +22,11 @@
 /* Song bar */
 #songbar {
   margin-top: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
+  width: 93%;
+  margin-left: 2%;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between
 }
 
 #search {
@@ -29,8 +34,8 @@
   background-position: 5px 6px; /* Position the search icon */
   background-repeat: no-repeat; /* Do not repeat the icon image */
   width: 100%; /* Full-width */
-  font-size: 10px; /* Increase font-size */
-  margin-top: 12px;
+  font-size: 13px; /* Increase font-size */
+  margin-top: 15px;
   padding: 8px 10px 5px 40px; /* Add some padding */
   border: 1px solid #ddd; /* Add a grey border */
   border-radius: 5px;
@@ -39,20 +44,20 @@
 #filter {
   background-image: url('filter.png');
   background-color: #FFFFFF;
-  font-size: 20px;
+  font-size: 15px;
   width: 30px;
   border: none;
-  margin-top: 5px;
+  margin-top: 20px;
   background-repeat: no-repeat; /* Do not repeat the icon image */
-  background-position: 0px 2px; /* Position the search icon */
+  background-position: 0px 5px; /* Position the search icon */
 }
 
 #sortBy {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 #allSong {
-  margin-top: 10px;
+  margin-top: 15px;
   font-size: 25px;
 }
 
@@ -61,10 +66,12 @@
   border: 1px solid #ddd;
   border-collapse: collapse;
   width: 100%;
+  margin-top: 20px;
 }
 
 td {
-  padding: 10px;
+  padding: 20px;
+  font-size: 18px;
 }
 
 tr {
@@ -82,11 +89,13 @@ tr {
 
 #lyric {
   width: 30%;
-  font-size: 15px
+  font-size: 15px;
+  text-align:center;
 }
 
 #play {
   width: 10%;
+  text-align: center;
 }
 
 #playLink {
