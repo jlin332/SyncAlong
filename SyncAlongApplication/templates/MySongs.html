@@ -7,7 +7,7 @@
   <title>SyncAlong</title>
 </head>
 <body>
-<h1 id="title" style="margin-left:10px">SyncAlong</h1>
+<h1 id="title" style="margin:10px">SyncAlong</h1>
 <hr>
 <div id="navbar" style="padding:10px">
   <button id="mySongs">My Songs</button>
@@ -16,9 +16,18 @@
   <button id="uploadLyric">Upload Lyric</button>
 </div>
 <hr>
-<h2 id="mySongsTitle" style="padding:10px">My Songs</h2>
+<div id="songbar" style="display:flex; flex-direction:row; justify-content:space-between">
+  <span style="" id="mySongsTitle"><u><b>All Songs</u></b></span>
+  <div id="searchWrapper" style="">
+    <input type="text" id="searchFilter" onkeyup="filter()" placeholder="Search for songs..">
+  </div>
+  <div id="filterWrapper" style="margin-right:5%">
+    <span>Sort By</span>
+    <button type="submit" class="filter">
+  </div>
+</div>
 <div id="listofSongs">
-  <div id="songItem"></div>
+  <div id="songItem">first song</div>
 </div>
 </body>
 </html>
