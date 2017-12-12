@@ -1,0 +1,87 @@
+/* Song bar */
+#songbar {
+  margin-top: 50px;
+  width: 93%;
+  margin-left: 2%;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between
+}
+
+#search {
+  background-image: url('search-icon-png-2.png'); /* Add a search icon to input */
+  background-position: 5px 6px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 13px; /* Increase font-size */
+  margin-top: 15px;
+  padding: 8px 10px 5px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  border-radius: 5px;
+}
+
+#filter {
+  background-image: url('filter.png');
+  background-color: #FFFFFF;
+  font-size: 15px;
+  width: 30px;
+  border: none;
+  margin-top: 20px;
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  background-position: 0px 5px; /* Position the search icon */
+}
+
+#sortBy {
+  font-size: 15px;
+}
+
+#allSong {
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+/* Songs List */
+#songTable {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+td {
+  padding: 20px;
+  font-size: 18px;
+}
+
+tr {
+  border: 1px solid #ddd;
+}
+.a
+#songName {
+  width: 30%;
+}
+
+#time {
+  width: 30%;
+  text-align: center;
+}
+
+#lyric {
+  width: 30%;
+  font-size: 15px;
+  text-align:center;
+}
+
+#play {
+  width: 10%;
+  text-align: center;
+}
+
+#playLink {
+  background-image: url('play.png');
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-color: #FFF;
+  border: none;
+}

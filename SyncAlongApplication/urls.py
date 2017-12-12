@@ -18,4 +18,7 @@ from . import views
 
 urlpatterns = [
     url(r'', views.displayMySongs, name='MySongs'),
+    url(r'/upload_songs', views.displayUploadSongs, name='UploadSongs'),
+    url(r'/create_playlist', views.displayCreatePlaylist, name='CreatePlaylist'),
+    url(r'/upload_lyric', views.displaUploadLyric, name='UploadLyric'),
 ]

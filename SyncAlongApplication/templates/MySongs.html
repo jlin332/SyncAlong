@@ -4,30 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/mySongs.css">
+  <link rel="stylesheet" type="text/css" href="css/global.css">
   <title>SyncAlong</title>
 </head>
 <body>
-<h1 id="title" style="margin:10px">SyncAlong</h1>
+<h1 id="title">SyncAlong</h1>
 <hr>
-<div id="navbar" style="padding:10px">
-  <button id="mySongs">My Songs</button>
-  <button id="uploadSongs">Upload Songs</button>
-  <button id="createPlaylist">Create Playlist</button>
-  <button id="uploadLyric">Upload Lyric</button>
+<div id="navbar">
+  <button class="navButton" id="mySongs">My Songs</button>
+  <button class="navButton" id="uploadSongs">Upload Songs</button>
+  <button class="navButton" id="createPlaylist">Create Playlist</button>
+  <button class="navButton" id="uploadLyric">Upload Lyric</button>
 </div>
 <hr>
-<div id="songbar" style="display:flex; flex-direction:row; justify-content:space-between">
-  <span style="" id="mySongsTitle"><u><b>All Songs</u></b></span>
-  <div id="searchWrapper" style="">
-    <input type="text" id="searchFilter" onkeyup="filter()" placeholder="Search for songs..">
+<div id="songbar">
+  <span style="" id="allSong"><b>My Songs</b></span>
+  <div id="searchWrapper" style="margin-left:20px">
+    <input type="text" id="search" onkeyup="filter()" placeholder="Search for songs..">
   </div>
-  <div id="filterWrapper" style="margin-right:5%">
-    <span>Sort By</span>
-    <button type="submit" class="filter">
+  <div id="filterWrapper">
+    <span id="sortBy">Sort By</span>
+    <input id="filter" type="button">
   </div>
 </div>
-<div id="listofSongs">
-  <div id="songItem">first song</div>
-</div>
+<hr>
+  <table id="songTable">
+    <tr id="songRow">
+      <td id="songName">Don't Wanna Cry</td>
+      <td id="time">3:43</td>
+      <td id="lyric">No Lyrics</td>
+      <td id="play"><input type="button" id="playLink"></td>
+    </tr>
+    <tr id="songRow">
+      <td id="songName">我爱你</td>
+      <td id="time">3:34</td>
+      <td id="lyric">Has Lyrics</td>
+      <td id="play"><input type="button" id="playLink"></td>
+    </tr>
+  </table>
 </body>
 </html>
